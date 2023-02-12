@@ -1,0 +1,16 @@
+FUNCTION Sort(arr : ARRAY OF INTEGER) : INTEGER
+VAR
+    cur,pos: INTEGER;
+BEGIN
+    cur:=arr[i];
+    p:=i;
+    
+    while(pos>0 and arr[pos-i]>cur) DO 
+
+    arr[pos] := arr[pos-1]
+    pos := pos-1
+    arr[pos] := cur
+
+     END_WHILE 
+     RETURN arr
+END
